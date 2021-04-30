@@ -5,6 +5,9 @@
 ![license MIT](https://img.shields.io/badge/licence-MIT-green)
 [![discord badge](https://img.shields.io/badge/discord-join-6E60EF)](https://discord.gg/GB2vwsF)
 
+
+# I forked MuZero repo  to comment with korean for self study
+
 # MuZero General
 
 A commented and [documented](https://github.com/werner-duvaud/muzero-general/wiki/MuZero-Documentation) implementation of MuZero based on the Google DeepMind [paper](https://arxiv.org/abs/1911.08265) (Nov 2019) and the associated [pseudocode](https://arxiv.org/src/1911.08265v2/anc/pseudocode.py).
