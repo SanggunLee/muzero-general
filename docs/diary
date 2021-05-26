@@ -1,0 +1,8 @@
+- cpu 만으로 셀프플레이하면 시간이 느려서 gpu 도 사용하니 빠르다.
+- titan rtx 24gb 에서 돌리니 메모리가 부족해서 파라미터 바꾼다.
+gomoku 에서 moves 121, num_simulations 121, unroll 121, batch 16
+worker 3, 하면 worker 당 1179mb, trainer 16101mb 먹어서 21791/24186 사용
+gpu 사용률 70-90%
+
+스텝을 줄이면 V 를 중간에 계산하게 되는데 gomoku 가 V 계산하는 코드 아직 안봐서
+게임 끝이 아닌 중간에 V 계산해도 되는지 아직 모른다.
